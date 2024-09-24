@@ -42,3 +42,19 @@ To address these challenges, we leverage advanced AI approaches with a special f
 
 These capabilities allow us to tackle a variety of AI tasks, including regression, classification, segmentation, and interpolation. 
 We are also committed to open and reproducible research, ensuring our code and data are accessible through open-source platforms.
+
+## Our Software Suite for Energy Research and Beyond
+To support our research and enable cutting-edge AI applications in the energy domain and beyond, we develop and maintain several key software packages and general purpose tools, each designed to address specific challenges in the field:
+
+- 🍃 **perun**, a `Python` package that calculates the energy consumption of `Python` scripts by sampling usage statistics from your Intel, Nvidia, or AMD hardware components. It can handle MPI applications, gather data from hundreds of nodes, and accumulate it efficiently. **perun** can be used as a command-line tool or as a function decorator in `Python` scripts.
+
+  > J.P. Gutiérrez Hermosillo Muriedas et al. (2023). perun: Benchmarking Energy Consumption of High-Performance Computing Applications. In: J. Cano et al. (eds) Euro-Par 2023: Parallel Processing. Euro-Par 2023. Lecture Notes in Computer Science, vol 14100. Springer, Cham. https://doi.org/10.1007/978-3-031-39698-4_2
+- 🧬 **Propulate**, an asynchronous population-based optimization algorithm and `Python` package for global optimization and hyperparameter search on supercomputers.
+
+  > O. Taubert et al. (2023). Massively Parallel Genetic Optimization Through Asynchronous Propagation of Populations. In: A. Bhatele et al. (eds) High Performance Computing. ISC High Performance 2023. Lecture Notes in Computer Science, vol 13948. Springer, Cham. https://doi.org/10.1007/978-3-031-32041-5_6
+- 🌍 **HyDe**, the first GPU-accelerated hyperspectral denoising toolbox in `Python`.
+
+  > D. Coquelin et al. (2022). Hyde: The First Open-Source, Python-Based, GPU-Accelerated Hyperspectral Denoising Package. In: 2022 12th Workshop on Hyperspectral Imaging and Signal Processing: Evolution in Remote Sensing (WHISPERS), Rome, Italy, pp. 1-5. https://doi.org/10.1109/WHISPERS56178.2022.9955088
+- 📈  **ReCycle**, a `Python` package for fast and efficient long time series forecasting with residual cyclic transformers.
+
+  > A. Weyrauch et al. (2024). ReCycle: Fast and Efficient Long Time Series Forecasting with Residual Cyclic Transformers. In: 2024 IEEE Conference on Artificial Intelligence (CAI), Singapore, Singapore, pp. 1187-1194. https://doi.org/10.1109/CAI59869.2024.00212
